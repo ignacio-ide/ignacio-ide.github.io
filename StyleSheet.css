@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.home {
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    margin-top: none;
+    height: 300px;
+    width: 100%;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.toolbar {
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 100px;
+    /*background-color: rgb(22, 22, 22);*/
+    background-image: linear-gradient(180deg, black, black, black, black, rgba(255, 255, 255, 0));
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+a:visited {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.link {
+    display: inline;
+    padding-right: 10%;
+    font-size: 50px;
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.5s 0.5s;
+    transition-delay: 0s;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.link:hover {
+    background-color: black;
+    color:white;
+    box-shadow: 0px 0px 30px white;
+}
+
+.contenthome {
+    margin-top: 150px;
+    margin-left: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid black 5px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 70px;
+    padding-left: 5px;
+}
+
+p {
+    font-size: 35px;
+}
+
+.text {
+    width: 95%;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.info {
+    font-size: 30px;
+    border: 5px black solid;
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+}
+
+.square {
+    border: 5px black solid;
+    margin-top: 150px;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.car1 {
+    width: 30%;
+    border: 5px black solid;
+    padding-left: 5px;
+    width: fit-content;
+    float: left;
+    margin-left: 1.5%;
+    border-radius: 15px;
+    transition: 1s 1s;
+    transition-delay: 0s;
+}
+
+
+.car2 {
+    float:left;
+    width: 30%;
+    border: 5px black solid;
+    padding-left: 5px;
+    width: fit-content;
+    margin-left: 250px;
+    margin-right: 200px;
+    border-radius: 15px;
+    transition: 1s 1s;
+    transition-delay: 0s;
+}
+
+.car3 {
+    float: right;
+    width: 30%;
+    border: 5px black solid;
+    padding-left: 5px;
+    width: fit-content;
+    margin-right: 1.5%;
+    border-radius: 15px;
+    transition: 1s 1s;
+    transition-delay: 0s;
+}
+
+.car1:hover {
+    box-shadow: 0px 0px 50px black;
+}
+
+.car2:hover {
+    box-shadow: 0px 0px 50px black;
+}
+
+.car3:hover {
+    box-shadow: 0px 0px 50px black;
+}
+
+.title {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.infor {
+    font-size: 25px;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.eprice {
+    text-decoration: line-through;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+img {
+    height: 300px;
+    width: 650px;
+}
+
+.goelectric {
+    margin-top: 770px;
+    margin-left: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid black 5px;
+    border-radius: 15px;
+}
+
+form {
+    font-size: 50px;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 30px;
+    padding: 5px;
+    float: left;
+}
+
+.in {
+    height: 3%;
+    width: 30%;
+    font-size: 30px;
+}
+
+#submitnresetbutton {
+    height: 3%;
+    width: 15%;
+    font-size: 30px;
+}
+
+input:hover {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.inform {
+    font-size: 30px;
+    border: 5px black solid;
+    margin-top: 573px;
+    background-color: black;
+    color: white;
+}
+
+.jimmy {
+    float: right;
+    margin-right: 300px;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 16%;
+    padding: 10px;
+    transition: 1s 1s;
+    transition-delay: 0s;
+}
+
+.jimmy:hover {
+    box-shadow: 0px 0px 100px gold;
+}
+
+.jimmytext {
+    font-size: 25px;
+    text-align: center;
+}
+
+.genericman {
+    width: 200px;
+    margin-left: 30%;
+}
